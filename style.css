@@ -12,8 +12,12 @@ h2 {
     font-family: 'Kumbh Sans';
     font-weight: 700;
 }
+
+p {
+    width: 60%;
+}
 .container {
-    margin-top: 6%;
+    margin-top:12%;
     width: 70%;
     height: 500px;
     box-shadow: 0 0 1px rgba(255, 255, 255, 0);
@@ -22,13 +26,38 @@ h2 {
     float: right;
     background-color: white;
     display: inline-flex;
+    
 }
 
 #bg {   
     width: 50%;
-    background-image: url('./images/bg-pattern-desktop.svg')
+    background-image: url('./images/bg-pattern-desktop.svg');   
+    background-size: 150%;
+    background-repeat: no-repeat;
+    /*Backgroundu niye ayarlayamadım?*/
+    background-position: right 120px top;
+}
+.box {
+    display: inline;
 }
 
+img {
+    display: inline-block;
+}
+#obox { 
+    position: relative;
+    /*KUTUNUN BİR KISMI NİYE DIŞARDA KALMADI?*/
+    z-index: 100;
+}
+   
+
+#girl {
+    position:relative;
+    /*KUTUNUN BİR KISMI NİYE DIŞARDA KALMADI?*/
+    z-index: 0;
+
+}
 #questions {
-    margin-top: 10%;
+    width: 60%;
+    margin: auto 0%;
 }

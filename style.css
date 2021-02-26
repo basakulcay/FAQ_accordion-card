@@ -1,0 +1,26 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: auto, 0, auto,auto;
+    overflow-x: hidden;
+    font-family: 'Public Sans', sans-serif;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) ;
+  }
+
+.container {
+    margin-top: 12%;
+    width: 70%;
+    height: 50%;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0);
+    border-radius: 56px;
+    /* NEDEN OLMADI?: margin-right: 0%;*/
+    float: right;
+    background-color: white;
+    display: inline-flex;
+}
+
+#bg {   
+    width: 50%;
+    background-image: url('./images/bg-pattern-desktop.svg')
+}
+

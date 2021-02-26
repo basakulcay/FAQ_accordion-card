@@ -3,14 +3,19 @@ html {
     height: 100%;
     margin: auto, 0, auto,auto;
     overflow-x: hidden;
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Kumbh Sans';
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) ;
+    font-size: 14px;
   }
-
+h2 {
+    font-size: 14px;
+    font-family: 'Kumbh Sans';
+    font-weight: 700;
+}
 .container {
-    margin-top: 12%;
+    margin-top: 6%;
     width: 70%;
-    height: 50%;
+    height: 500px;
     box-shadow: 0 0 1px rgba(255, 255, 255, 0);
     border-radius: 56px;
     /* NEDEN OLMADI?: margin-right: 0%;*/
@@ -24,3 +29,6 @@ html {
     background-image: url('./images/bg-pattern-desktop.svg')
 }
 
+#questions {
+    margin-top: 10%;
+}

@@ -4,6 +4,7 @@ function first() {
       x.style.display = "block";
       document.getElementById('f').style.color='black';
       document.getElementById('f').style.fontWeight='700';
+      document.getElementById('rotate').style.display='block';
       document.getElementById('second').style.display='none';
       document.getElementById('third').style.display='none';
       document.getElementById('fourth').style.display='none';

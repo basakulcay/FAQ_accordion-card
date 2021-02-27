@@ -106,10 +106,15 @@ button {
 button::after {
     position: absolute;
     margin-top: 9px;
-   margin-left: 300px;
-
+    margin-left: 300px;
     content: url('./images/icon-arrow-down.svg');
 }
 
-
+#rotate {
+    position: absolute;
+    margin-top:9px;
+    margin-left: 300px;
+    transform: rotate(180deg);
+    display: none;
+  }
 

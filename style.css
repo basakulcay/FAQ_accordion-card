@@ -104,13 +104,14 @@ button {
 }
 
 
-#straight {
+.straight {
     position: absolute;
     margin-top:9px;
     margin-left: 300px;
     display: inline-block;
   }
-#rotate {
+
+.rotate {
     position: absolute;
     margin-top:9px;
     margin-left: 300px;

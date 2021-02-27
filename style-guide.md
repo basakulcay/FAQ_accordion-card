@@ -56,3 +56,10 @@ h2::after{
     content: url('./images/icon-arrow-down.svg');
 
 }
+
+button::after {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 300px;
+    content: url('./images/icon-arrow-down.svg');
+}

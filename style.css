@@ -103,13 +103,13 @@ button {
     display: flex;
 }
 
-button::after {
-    position: absolute;
-    margin-top: 9px;
-    margin-left: 300px;
-    content: url('./images/icon-arrow-down.svg');
-}
 
+#straight {
+    position: absolute;
+    margin-top:9px;
+    margin-left: 300px;
+    display: inline-block;
+  }
 #rotate {
     position: absolute;
     margin-top:9px;

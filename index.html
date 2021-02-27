@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Kumbh+Sans">
   <title>Frontend Mentor | FAQ Accordion Card</title>
   <link rel="stylesheet" href="style.css">
-
+  <script src="./myscript.js"></script>
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -23,24 +23,46 @@
     </div>
     <div class='box' id='questions'>
       <h1>FAQ</h1>
-      <h2>How many team members can I invite?</h2>
-      <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
+      <button onclick='first()'>
+        <h2>How many team members can I invite?</h2>
+      </button>
+
+      <div id='first'>
+        <p>You can invite up to 2 additional users on the Free plan. There is no limit on 
         team members for the Premium plan.</p>
-    
-      <h2>What is the maximum file upload size?</h2>
-      <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
-    
+      </div>
+  
+      <button onclick="second()">
+        <h2>What is the maximum file upload size?</h2>
+      </button>
+      
+
+      <div id='second'>
+        <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+      
+    <button onclick='third()'>
       <h2>How do I reset my password?</h2>
+    </button>
+      
+    <div id='third'>
       <p>Click “Forgot password” from the login page or “Change password” from your profile page.
         A reset link will be emailed to you.</p>
+    </div>
+     
+      <button onclick="fourth()"><h2>Can I cancel my subscription?</h2></button>
+      <div id='fourth'>
+        <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+
+      <button onclick="fifth()">
+        <h2>Do you provide additional support?</h2>
+      </button>
+
+      <div id='fifth'>
+        <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </div>
       
-    
-      <h2>Can I cancel my subscription?</h2>
-      <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-      
-    
-      <h2>Do you provide additional support?</h2>
-      <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
     </div>
 
   </div>

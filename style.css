@@ -25,7 +25,7 @@ p {
     /* NEDEN OLMADI?: margin-right: 0%;*/
     float: right;
     background-color: white;
-    display: inline-flex;
+    display: flex;
     
 }
 
@@ -36,24 +36,23 @@ p {
     background-repeat: no-repeat;
     /*Backgroundu niye ayarlayamadım?*/
     background-position: right 120px top;
-}
-.box {
-    display: inline;
+    /*display: inline-flex;*/
 }
 
-img {
-    display: inline-block;
-}
+
 #obox { 
     position: relative;
-    /*KUTUNUN BİR KISMI NİYE DIŞARDA KALMADI?*/
+    top:30%;
+    left:-15%;
     z-index: 100;
 }
    
-
 #girl {
     position:relative;
-    /*KUTUNUN BİR KISMI NİYE DIŞARDA KALMADI?*/
+    top:-35%;
+    left: -10%;
+    /*DIŞARDA KALAN KISIM NEDEN GİZLENMEDİ?*/
+    overflow-y: hidden;
     z-index: 0;
 
 }
@@ -62,6 +61,9 @@ img {
     margin: auto 0%;
 }
 
+/*#questions p {*/
+/*visibility: hidden;*/
+/*}*/
 
 footer {
     position: fixed;
@@ -69,6 +71,18 @@ footer {
     color:white;
 }
 
-a:link {
+footer a:link {
     color: white;
+}
+
+#first {display: none;}
+#second {display: none;}  
+#third {display: none;}     
+#fourth {display: none;}  
+#fifth {display: none;}  
+
+button {
+    background-color: Transparent;
+    border: none;
+    cursor:pointer;
 }

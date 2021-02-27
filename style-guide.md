@@ -44,3 +44,15 @@ Background gradient:
 
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 - Weights: 400, 700
+
+
+h2 {
+    position: relative;
+}
+
+h2::after{
+    position: relative;
+    left: 30px;
+    content: url('./images/icon-arrow-down.svg');
+
+}

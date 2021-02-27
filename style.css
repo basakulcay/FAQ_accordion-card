@@ -19,16 +19,18 @@ p {
     width: 60%;
     color:hsl(240, 6%, 50%);
     font-family:'Kumbh Sans' ;
-    
 }
 
 .line {
+    width: 80%;
     border-bottom: 1px solid hsl(240, 5%, 91%);
 }
+
+
 .container {
-    margin-top:12%;
+    margin-top:7%;
     width: 70%;
-    height: 500px;
+    height: 550px;
     box-shadow: 0 0 1px rgba(255, 255, 255, 0);
     border-radius: 56px;
     /* NEDEN OLMADI?: margin-right: 0%;*/
@@ -44,27 +46,29 @@ p {
     background-size: 150%;
     background-repeat: no-repeat;
     /*Backgroundu niye ayarlayamadım?*/
-    background-position: right 120px top;
+    background-position: right 90px top -100px;
     /*display: inline-flex;*/
 }
 
 
 #obox { 
     position: relative;
-    top:30%;
+    top:35%;
     left:-15%;
     z-index: 100;
 }
    
 #girl {
     position:relative;
-    top:-35%;
+    top:-25%;
     left: -10%;
     /*DIŞARDA KALAN KISIM NEDEN GİZLENMEDİ?*/
     overflow-y: hidden;
     z-index: 0;
 
 }
+
+
 #questions {
     width: 60%;
     margin: 8% 0%;
@@ -95,4 +99,17 @@ button {
     border: none;
     cursor:pointer;
     display: block;
+    position: relative;
+    display: flex;
 }
+
+button::after {
+    position: absolute;
+    margin-top: 9px;
+   margin-left: 300px;
+
+    content: url('./images/icon-arrow-down.svg');
+}
+
+
+

@@ -61,3 +61,14 @@ img {
     width: 60%;
     margin: auto 0%;
 }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color:white;
+}
+
+a:link {
+    color: white;
+}

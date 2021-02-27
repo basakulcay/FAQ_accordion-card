@@ -41,6 +41,7 @@ function first() {
     var x = document.getElementById("fourth");
     if (x.style.display === "none") {
       x.style.display = "block";
+      
       document.getElementById('second').style.display='none';
       document.getElementById('third').style.display='none';
       document.getElementById('first').style.display='none';

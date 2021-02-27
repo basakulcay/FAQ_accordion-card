@@ -46,20 +46,7 @@ Background gradient:
 - Weights: 400, 700
 
 
-h2 {
-    position: relative;
-}
+### Questions:
 
-h2::after{
-    position: relative;
-    left: 30px;
-    content: url('./images/icon-arrow-down.svg');
-
-}
-
-button::after {
-    position: absolute;
-    margin-top: 9px;
-    margin-left: 300px;
-    content: url('./images/icon-arrow-down.svg');
-}
+-   Oklar kapatılmadan açılırsa yanlış yöne bakıyor
+-   Kızın platform kutudan taşıyor

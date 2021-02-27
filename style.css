@@ -85,4 +85,5 @@ button {
     background-color: Transparent;
     border: none;
     cursor:pointer;
+    display: block;
 }

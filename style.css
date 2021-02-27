@@ -15,7 +15,15 @@ h2 {
 }
 
 p {
+    font-size:12px;
     width: 60%;
+    color:hsl(240, 6%, 50%);
+    font-family:'Kumbh Sans' ;
+    
+}
+
+.line {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 .container {
     margin-top:12%;
@@ -59,12 +67,8 @@ p {
 }
 #questions {
     width: 60%;
-    margin: auto 0%;
+    margin: 8% 0%;
 }
-
-/*#questions p {*/
-/*visibility: hidden;*/
-/*}*/
 
 footer {
     position: fixed;
@@ -76,11 +80,15 @@ footer a:link {
     color: white;
 }
 
-#first {display: none;}
+#first {display: none;
+       }
+
 #second {display: none;}  
 #third {display: none;}     
 #fourth {display: none;}  
 #fifth {display: none;}  
+
+
 
 button {
     background-color: Transparent;

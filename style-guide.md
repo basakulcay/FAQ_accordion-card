@@ -50,3 +50,4 @@ Background gradient:
 
 -   Oklar kapatılmadan açılırsa yanlış yöne bakıyor
 -   Kızın platform kutudan taşıyor
+-   Ekranı küçültmeye başlayınca her şey değişiyor
